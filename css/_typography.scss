@@ -1,0 +1,28 @@
+@use "variables" as v;
+@use "sass:list";
+@use "sass:map";
+
+// a, h1, ul
+
+//  for $i from 1 through 6 {
+//  h#{$i}  {
+//  font-family: v.$font-family-headings;
+//  font-size: map.get(list.nth(v.$heading-styles, $i), "size");
+//  line-height: map.get(list.nth(v.$heading-styles, $i), "height")
+//  }
+// }
+
+// a {
+//     &:link, &:visited {
+//         ---
+//     }
+//     &:hover, &:focus {
+//         ---
+//     }
+//     &:active{
+
+//     }
+// }
+
+// https://www.internetingishard.com/html-and-css/web-typography/
+
