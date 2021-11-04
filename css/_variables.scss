@@ -1,17 +1,36 @@
+// Color Scheme
 
+$nav-and-cards-bg-color: #FAFAFA !default;
+$primary-bg-color: #EDEAE6 !default;
+$secondary-bg-color: #FFFFFF !default;
+$text-and-deco-color: #2B1600 !default;
+// Links, buttons, background of cta section, logo in footer:
+$accent-color: #07941E !default;
 
-// $base-font-size !default (why?)
+// Typography
 
-// $mobile-breakpoint
+$font-family: "Raleway" !default;
 
-// $font-family
+$h1-font-size: 39;
+$h2-font-size: 32;
+$h3-font-size: 21;
+$faqs-h2-font-size: 28;
 
-// $base-color, $accent-color etc 
+$p1-font-size: 21;
+$p2-font-size: 15;
+$feedbacks-p-font-size: 18;
+$copyright-font-size: 14;
 
-// $font-family-headings
+$header-navbar-link: 18;
+$footer-navbar-link: 14;
 
 // $heading-styles: ("size": ---, "height: ---"),
 // (---),
 // (---)  !default;
 
 // $container-max-width
+
+
+// To do:
+
+// - $mobile-breakpoint
