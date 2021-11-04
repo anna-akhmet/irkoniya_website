@@ -1,0 +1,5 @@
+@import url(normalize.css);
+@font-face {
+  src: url(../fonts/grotesque.ttf);
+  font-family: "grotesque";
+}
