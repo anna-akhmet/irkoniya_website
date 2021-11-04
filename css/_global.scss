@@ -1,0 +1,18 @@
+@use "variables" as v;
+
+
+@font-face {
+	src: url(../fonts/grotesque.ttf);
+	font-family: 'grotesque';
+}
+
+
+// files: global (*, html, body)
+// & instead of parent
+// nesting {}
+
+
+// v.$base-font-size !default (why)
+// v.$mobile-breakpoint
+// v.$font-family
+// v.$base-color, v.$accent-color etc 
