@@ -336,8 +336,3 @@ template {
 [hidden] {
   display: none;
 }
-
-@font-face {
-  src: url(../fonts/grotesque.ttf);
-  font-family: "grotesque";
-}
