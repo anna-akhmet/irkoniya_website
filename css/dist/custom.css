@@ -336,3 +336,30 @@ template {
 [hidden] {
   display: none;
 }
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway";
+  font-weight: 400;
+}
