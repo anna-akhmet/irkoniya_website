@@ -21,8 +21,28 @@
     font-weight: 600; 
 }
   
+.header-navbar-link {
+  font-size: v.$header-navbar-link;
+  text-decoration: none;
+  color: v.$text-and-deco-color;
+}
 
+.logo-container__contacts-button {
+  font-size: v.$header-navbar-link;
+  color: v.$accent-color;
+}
 
+a {
+    &:link {
+      color: v.$accent-color;
+    }
+    &:visited{
+      color: v.$text-and-deco-color;
+    }
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+}
 
 
 // Add different formats to font to ensure crossbrowser, format('ttf') - is not working in chrome
