@@ -363,16 +363,43 @@ template {
 
 .logo-container__contacts-button {
   font-size: 1.25vw;
+  text-decoration: none;
   color: #07941E;
 }
 
-a:link {
+.hero-text-container__h1 {
+  font-size: 2.71vw;
+}
+
+.p1 {
+  font-size: 1.46vw;
+  line-height: 140.6%;
+}
+
+.hero-text-container__contacts-button {
+  font-size: 1.46vw;
+}
+.hero-text-container__contacts-button:link {
+  color: white;
+}
+.hero-text-container__contacts-button:visited {
+  color: white;
+}
+.hero-text-container__contacts-button:hover, .hero-text-container__contacts-button:focus {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.22vw;
+}
+
+p a:link, .contacts-container__write-container a:link {
   color: #07941E;
 }
-a:visited {
+p a:visited, .contacts-container__write-container a:visited {
   color: #2B1600;
 }
-a:hover, a:focus {
+p a:hover, p a:focus, .contacts-container__write-container a:hover, .contacts-container__write-container a:focus {
   text-decoration: none;
 }
 
