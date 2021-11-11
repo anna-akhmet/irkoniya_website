@@ -20,7 +20,7 @@
     font-style: normal;
     font-weight: 600; 
 }
-  
+
 .header-navbar-link {
   font-size: v.$header-navbar-link;
   text-decoration: none;
@@ -29,20 +29,54 @@
 
 .logo-container__contacts-button {
   font-size: v.$header-navbar-link;
+  text-decoration: none;
   color: v.$accent-color;
+  }
+
+.hero-text-container__h1 {
+  font-size: v.$h1-font-size;
 }
 
-a {
-    &:link {
-      color: v.$accent-color;
-    }
-    &:visited{
-      color: v.$text-and-deco-color;
-    }
-    &:hover, &:focus {
-      text-decoration: none;
-    }
+.p1 {
+  font-size: v.$p1-font-size;
+  line-height: 140.6%;
 }
+
+.hero-text-container__contacts-button {
+  font-size: v.$p1-font-size;
+  &:link {
+    color: white;
+  }
+  &:visited{
+    color: white;
+  }
+  &:hover, &:focus {
+    text-decoration: none;
+  } 
+}
+
+h2 {
+  font-size: v.$h2-font-size;
+}
+
+
+p a, .contacts-container__write-container a {
+  &:link {
+    color: v.$accent-color;
+  }
+  &:visited{
+    color: v.$text-and-deco-color;
+  }
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+
 
 
 // Add different formats to font to ensure crossbrowser, format('ttf') - is not working in chrome
@@ -57,17 +91,6 @@ a {
 
 // nesting {}
 
-// a {
-//     &:link, &:visited {
-//         ---
-//     }
-//     &:hover, &:focus {
-//         ---
-//     }
-//     &:active{
-
-//     }
-// }
 
 
 
