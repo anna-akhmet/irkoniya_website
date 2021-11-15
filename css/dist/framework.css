@@ -361,7 +361,7 @@ template {
   color: #2B1600;
 }
 
-.logo-container__contacts-button {
+.contacts-button-container__contacts-button {
   font-size: 1.25vw;
   text-decoration: none;
   color: #07941E;
@@ -370,12 +370,6 @@ template {
 .hero-text-container__h1 {
   font-size: 2.71vw;
 }
-
-.p1 {
-  font-size: 1.46vw;
-  line-height: 140.6%;
-}
-
 .hero-text-container__contacts-button {
   font-size: 1.46vw;
 }
@@ -389,8 +383,14 @@ template {
   text-decoration: none;
 }
 
-h2 {
+.p1 {
+  font-size: 1.46vw;
+  line-height: 140.6%;
+}
+
+.h2 {
   font-size: 2.22vw;
+  font-weight: 400;
 }
 
 p a:link, .contacts-container__write-container a:link {
@@ -401,6 +401,58 @@ p a:visited, .contacts-container__write-container a:visited {
 }
 p a:hover, p a:focus, .contacts-container__write-container a:hover, .contacts-container__write-container a:focus {
   text-decoration: none;
+}
+
+.h3 {
+  font-size: 1.46vw;
+  font-weight: 400;
+}
+
+.p2 {
+  font-size: 1.04vw;
+  line-height: 135.9%;
+}
+
+ul {
+  font-size: 1.04vw;
+  line-height: 135.9%;
+  padding: 20px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.service-card-button {
+  font-size: 1.04vw;
+}
+.service-card-button:link {
+  color: white;
+}
+.service-card-button:visited {
+  color: white;
+}
+.service-card-button:hover, .service-card-button:focus {
+  text-decoration: none;
+}
+
+.faq-card__h2 {
+  font-size: 1.94vw;
+  font-weight: 400;
+}
+
+.cta-container__h2 {
+  font-size: 2.22vw;
+  line-height: 140.6%;
+}
+.cta-container__h2:nth-child(1) {
+  font-weight: 500;
+}
+.cta-container__h2:nth-child(2) {
+  font-weight: 400;
+}
+.cta-container__h2__contacts-button {
+  font-size: 1.46vw;
 }
 
 * {
