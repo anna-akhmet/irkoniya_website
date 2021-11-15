@@ -27,14 +27,28 @@
   color: v.$text-and-deco-color;
 }
 
-.logo-container__contacts-button {
+.contacts-button-container__contacts-button {
   font-size: v.$header-navbar-link;
   text-decoration: none;
   color: v.$accent-color;
-  }
+}
 
-.hero-text-container__h1 {
-  font-size: v.$h1-font-size;
+.hero-text-container {
+  &__h1 {
+    font-size: v.$h1-font-size;
+  }
+  &__contacts-button {
+    font-size: v.$p1-font-size;
+    &:link {
+      color: white;
+    }
+    &:visited{
+      color: white;
+    }
+    &:hover, &:focus {
+      text-decoration: none;
+    } 
+  }
 }
 
 .p1 {
@@ -42,23 +56,10 @@
   line-height: 140.6%;
 }
 
-.hero-text-container__contacts-button {
-  font-size: v.$p1-font-size;
-  &:link {
-    color: white;
-  }
-  &:visited{
-    color: white;
-  }
-  &:hover, &:focus {
-    text-decoration: none;
-  } 
-}
-
-h2 {
+.h2 {
   font-size: v.$h2-font-size;
+  font-weight: 400;
 }
-
 
 p a, .contacts-container__write-container a {
   &:link {
@@ -72,6 +73,63 @@ p a, .contacts-container__write-container a {
   }
 }
 
+.h3 {
+  font-size: v.$h3-font-size;
+  font-weight: 400;
+}
+
+.p2 {
+  font-size: v.$p2-font-size;
+  line-height: 135.9%;
+}
+
+ul {
+  font-size: v.$p2-font-size;
+  line-height: 135.9%;
+  padding: 20px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.service-card-button {
+  font-size: v.$p2-font-size;
+  &:link {
+    color: white;
+  }
+  &:visited{
+    color: white;
+  }
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.faq-card__h2 {
+  font-size: v.$faqs-h2-font-size;
+  font-weight: 400;
+}
+
+.cta-container__h2 {
+  font-size: v.$h2-font-size;
+  line-height: 140.6%;
+  &:nth-child(1) {
+    font-weight: 500;
+  }
+  &:nth-child(2) {
+    font-weight: 400;
+  }
+  &__contacts-button {
+    font-size: v.$p1-font-size;
+  }
+}
+
+
+
+
+
+
 
 
 
@@ -84,16 +142,6 @@ p a, .contacts-container__write-container a {
 // url('DejaWeb-Bol.woff') format('woff'), /* Modern Browsers */
 // url('DejaWeb-Bol.ttf') format('truetype'), /* Safari, Android, iOS */
 // url('DejaWeb-Bol.svg#Dejaweb') format('svg'); /* Legacy iOS; correction on this line */
-
-// a, h1, ul
-
-// & instead of parent
-
-// nesting {}
-
-
-
-
 
 
 // @use "sass:list";
