@@ -77,7 +77,8 @@ p a:hover, p a:focus, .contacts-container__write-container a:hover, .contacts-co
 ul {
   font-size: 1.04vw;
   line-height: 135.9%;
-  padding: 20px;
+  padding-left: 1.39vw;
+  margin: 0;
 }
 
 strong {
@@ -114,4 +115,12 @@ strong {
 }
 .cta-container__h2__contacts-button {
   font-size: 1.46vw;
+}
+
+.footer-nav-link {
+  font-size: 0.97vw;
+}
+
+.copyright {
+  font-size: 0.97vw;
 }

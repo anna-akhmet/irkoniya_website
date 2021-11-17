@@ -86,7 +86,8 @@ p a, .contacts-container__write-container a {
 ul {
   font-size: v.$p2-font-size;
   line-height: 135.9%;
-  padding: 20px;
+  padding-left: 1.39vw;
+  margin: 0;
 }
 
 strong {
@@ -125,17 +126,19 @@ strong {
   }
 }
 
+.footer-nav-link {
+  font-size: v.$footer-navbar-link;
+}
+
+.copyright {
+  font-size: v.$copyright-font-size;
+}
 
 
 
 
 
-
-
-
-
-
-
+// Add margins
 
 // Add different formats to font to ensure crossbrowser, format('ttf') - is not working in chrome
 // src: url("DejaWeb-Bol.eot") format('embedded-opentype'), /* EDIT correction on this line */
