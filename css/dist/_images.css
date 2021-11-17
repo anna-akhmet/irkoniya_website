@@ -1,0 +1,27 @@
+.logo, .footer-logo {
+  width: 11.82vw;
+}
+
+.hero-image-container__image, .about-image-container__image {
+  width: 50vw;
+}
+
+.point-container__image {
+  width: 18.75vw;
+}
+
+.horse-riding-service-card__image, .horse-card__image, .team-card__image, .instagram-post-container__img {
+  width: 25.69vw;
+}
+
+.beginners-school-service-card__image, .sport-school-service-card__image {
+  width: 39.58vw;
+}
+
+.faq-card__pop-up-button {
+  width: 2.22vw;
+}
+
+.sm-logo {
+  width: 2.78vw;
+}
