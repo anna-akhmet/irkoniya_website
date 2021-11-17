@@ -416,7 +416,8 @@ p a:hover, p a:focus, .contacts-container__write-container a:hover, .contacts-co
 ul {
   font-size: 1.04vw;
   line-height: 135.9%;
-  padding: 20px;
+  padding-left: 1.39vw;
+  margin: 0;
 }
 
 strong {
@@ -455,6 +456,14 @@ strong {
   font-size: 1.46vw;
 }
 
+.footer-nav-link {
+  font-size: 0.97vw;
+}
+
+.copyright {
+  font-size: 0.97vw;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -465,6 +474,35 @@ body {
   color: #2B1600;
 }
 
-img {
-  width: 150px;
+.header-container {
+  display: flex;
+  padding: 0 2.78vw;
+}
+
+.logo, .footer-logo {
+  width: 11.82vw;
+}
+
+.hero-image-container__image, .about-image-container__image {
+  width: 50vw;
+}
+
+.point-container__image {
+  width: 18.75vw;
+}
+
+.horse-riding-service-card__image, .horse-card__image, .team-card__image, .instagram-post-container__img {
+  width: 25.69vw;
+}
+
+.beginners-school-service-card__image, .sport-school-service-card__image {
+  width: 39.58vw;
+}
+
+.faq-card__pop-up-button {
+  width: 2.22vw;
+}
+
+.sm-logo {
+  width: 2.78vw;
 }
