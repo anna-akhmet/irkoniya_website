@@ -37,6 +37,9 @@
   &__h1 {
     font-size: v.$h1-font-size;
   }
+  & .p1 {
+    margin-top: 2.08vw;
+  }
   &__contacts-button {
     font-size: v.$p1-font-size;
     &:link {
@@ -49,6 +52,15 @@
       text-decoration: none;
     } 
   }
+}
+
+.point-container .p1 {
+  padding-top: 2.01vw;
+  border-top: solid v.$text-and-deco-color 1px;
+}
+
+.feedback-container .p1 {
+  margin-top: 2.01vw;
 }
 
 .p1 {
