@@ -128,6 +128,8 @@ strong {
 
 .footer-nav-link {
   font-size: v.$footer-navbar-link;
+  text-decoration: none;
+  color: v.$text-and-deco-color;
 }
 
 .copyright {

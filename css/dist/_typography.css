@@ -119,6 +119,8 @@ strong {
 
 .footer-nav-link {
   font-size: 0.97vw;
+  text-decoration: none;
+  color: #2B1600;
 }
 
 .copyright {
