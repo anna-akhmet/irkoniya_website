@@ -360,29 +360,11 @@ template {
   color: #2B1600;
 }
 
-.contacts-button-container__contacts-button {
-  font-size: 1.25vw;
-  text-decoration: none;
-  color: #07941E;
-}
-
 .hero-text-container__h1 {
   font-size: 2.71vw;
 }
 .hero-text-container .p1 {
   margin-top: 2.08vw;
-}
-.hero-text-container__contacts-button {
-  font-size: 1.46vw;
-}
-.hero-text-container__contacts-button:link {
-  color: white;
-}
-.hero-text-container__contacts-button:visited {
-  color: white;
-}
-.hero-text-container__contacts-button:hover, .hero-text-container__contacts-button:focus {
-  text-decoration: none;
 }
 
 .about-text-container .p1 {
@@ -498,6 +480,27 @@ strong {
 .copyright {
   font-size: 0.97vw;
   margin: auto;
+}
+
+.contacts-button-container__contacts-button {
+  border: #07941E solid 1px;
+  border-radius: 5px;
+  padding: 0.66vw 1.46vw;
+  font-size: 1.25vw;
+  text-decoration: none;
+  color: #07941E;
+  display: inline-block;
+}
+
+.hero-text-container__contacts-button {
+  font-size: 1.46vw;
+  background-color: #07941E;
+  border-radius: 5px;
+  padding: 0.903vw 1.944vw;
+  text-decoration: none;
+  color: white;
+  margin-top: 2.083vw;
+  display: inline-block;
 }
 
 * {
