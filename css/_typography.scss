@@ -27,30 +27,12 @@
   color: v.$text-and-deco-color;
 }
 
-.contacts-button-container__contacts-button {
-  font-size: v.$header-navbar-link;
-  text-decoration: none;
-  color: v.$accent-color;
-}
-
 .hero-text-container {
   &__h1 {
     font-size: v.$h1-font-size;
   }
   & .p1 {
     margin-top: 2.08vw;
-  }
-  &__contacts-button {
-    font-size: v.$p1-font-size;
-    &:link {
-      color: white;
-    }
-    &:visited{
-      color: white;
-    }
-    &:hover, &:focus {
-      text-decoration: none;
-    } 
   }
 }
 
@@ -174,10 +156,32 @@ strong {
   margin: auto;
 }
 
+// Link buttons
+
+.contacts-button-container__contacts-button {
+  border: v.$accent-color solid 1px;
+  border-radius: 5px;
+  padding: 0.66vw 1.46vw;
+  font-size: v.$header-navbar-link;
+  text-decoration: none;
+  color: v.$accent-color;
+  display: inline-block;
+}
+
+.hero-text-container__contacts-button {
+  font-size: v.$p1-font-size;
+  background-color: v.$accent-color;
+  border-radius: 5px;
+  padding: 0.903vw 1.944vw;
+  text-decoration: none;
+  color: white;
+  margin-top: 2.083vw;
+  display: inline-block;
+}
 
 
 
-
+// Add rules for pseudolinks
 
 
 // Add different formats to font to ensure crossbrowser, format('ttf') - is not working in chrome
