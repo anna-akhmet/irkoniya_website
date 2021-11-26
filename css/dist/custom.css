@@ -358,6 +358,7 @@ template {
   font-size: 1.25vw;
   text-decoration: none;
   color: #2B1600;
+  margin: 0 1.042vw;
 }
 
 .hero-text-container__h1 {
@@ -398,13 +399,13 @@ template {
   font-weight: 400;
 }
 
-p a:link, .contacts-container__write-container a:link {
+p a:link {
   color: #07941E;
 }
-p a:visited, .contacts-container__write-container a:visited {
+p a:visited {
   color: #2B1600;
 }
-p a:hover, p a:focus, .contacts-container__write-container a:hover, .contacts-container__write-container a:focus {
+p a:hover, p a:focus {
   text-decoration: none;
 }
 
@@ -438,19 +439,6 @@ strong {
   font-weight: 600;
 }
 
-.service-card-button {
-  font-size: 1.04vw;
-}
-.service-card-button:link {
-  color: white;
-}
-.service-card-button:visited {
-  color: white;
-}
-.service-card-button:hover, .service-card-button:focus {
-  text-decoration: none;
-}
-
 .faq-card__question {
   font-size: 1.94vw;
   font-weight: 400;
@@ -465,9 +453,6 @@ strong {
 }
 .cta-container__h2:nth-child(2) {
   font-weight: 400;
-}
-.cta-container__h2__contacts-button {
-  font-size: 1.46vw;
 }
 
 .footer-nav-link {
@@ -503,6 +488,27 @@ strong {
   display: inline-block;
 }
 
+.service-card-button {
+  font-size: 1.04vw;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #07941E;
+  padding: 0.63vw 1.35vw;
+  line-height: 100%;
+}
+
+.cta-container__contacts-button {
+  font-size: 1.46vw;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #2B1600;
+  padding: 0.986vw 1.701vw;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -515,9 +521,34 @@ body {
   color: #2B1600;
 }
 
+img {
+  display: block;
+}
+
+.page {
+  overflow: visible;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
 .header-container {
   display: flex;
-  padding: 0 2.78vw;
+  align-items: center;
+  padding: 2.292vw 2.78vw;
+  justify-content: space-between;
+  background-color: #FAFAFA;
+}
+
+.navbar-container {
+  margin-right: 2.865vw;
+}
+
+.hero-text-container__h1 {
+  padding-top: 10.056vw;
+  margin-top: -10.056vw;
 }
 
 .logo, .footer-logo {
