@@ -60,13 +60,13 @@
   font-weight: 400;
 }
 
-p a:link, .contacts-container__write-container a:link {
+p a:link {
   color: #07941E;
 }
-p a:visited, .contacts-container__write-container a:visited {
+p a:visited {
   color: #2B1600;
 }
-p a:hover, p a:focus, .contacts-container__write-container a:hover, .contacts-container__write-container a:focus {
+p a:hover, p a:focus {
   text-decoration: none;
 }
 
@@ -100,19 +100,6 @@ strong {
   font-weight: 600;
 }
 
-.service-card-button {
-  font-size: 1.04vw;
-}
-.service-card-button:link {
-  color: white;
-}
-.service-card-button:visited {
-  color: white;
-}
-.service-card-button:hover, .service-card-button:focus {
-  text-decoration: none;
-}
-
 .faq-card__question {
   font-size: 1.94vw;
   font-weight: 400;
@@ -127,9 +114,6 @@ strong {
 }
 .cta-container__h2:nth-child(2) {
   font-weight: 400;
-}
-.cta-container__h2__contacts-button {
-  font-size: 1.46vw;
 }
 
 .footer-nav-link {
@@ -163,4 +147,25 @@ strong {
   color: white;
   margin-top: 2.083vw;
   display: inline-block;
+}
+
+.service-card-button {
+  font-size: 1.04vw;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #07941E;
+  padding: 0.63vw 1.35vw;
+  line-height: 100%;
+}
+
+.cta-container__contacts-button {
+  font-size: 1.46vw;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #2B1600;
+  padding: 0.986vw 1.701vw;
 }

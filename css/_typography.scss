@@ -67,7 +67,7 @@
   }
 }
 
-p a, .contacts-container__write-container a {
+p a {
   &:link {
     color: v.$accent-color;
   }
@@ -112,19 +112,6 @@ strong {
   font-weight: 600;
 }
 
-.service-card-button {
-  font-size: v.$p2-font-size;
-  &:link {
-    color: white;
-  }
-  &:visited{
-    color: white;
-  }
-  &:hover, &:focus {
-    text-decoration: none;
-  }
-}
-
 .faq-card__question {
   font-size: v.$faqs-h2-font-size;
   font-weight: 400;
@@ -138,9 +125,6 @@ strong {
   }
   &:nth-child(2) {
     font-weight: 400;
-  }
-  &__contacts-button {
-    font-size: v.$p1-font-size;
   }
 }
 
@@ -166,6 +150,7 @@ strong {
   text-decoration: none;
   color: v.$accent-color;
   display: inline-block;
+  
 }
 
 .hero-text-container__contacts-button {
@@ -178,6 +163,28 @@ strong {
   margin-top: 2.083vw;
   display: inline-block;
 }
+
+.service-card-button {
+  font-size: v.$p2-font-size;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: v.$accent-color;
+  padding: 0.63vw 1.35vw;
+  line-height: 100%;
+}
+
+.cta-container__contacts-button {
+  font-size: v.$p1-font-size;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: v.$text-and-deco-color;
+  padding: 0.986vw 1.701vw;
+}
+
 
 
 
