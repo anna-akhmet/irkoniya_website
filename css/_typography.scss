@@ -25,6 +25,7 @@
   font-size: v.$header-navbar-link;
   text-decoration: none;
   color: v.$text-and-deco-color;
+  margin: 0 1.042vw;
 }
 
 .hero-text-container {
@@ -184,11 +185,6 @@ strong {
   background-color: v.$text-and-deco-color;
   padding: 0.986vw 1.701vw;
 }
-
-
-
-
-// Add rules for pseudolinks
 
 
 // Add different formats to font to ensure crossbrowser, format('ttf') - is not working in chrome

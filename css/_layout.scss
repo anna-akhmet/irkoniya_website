@@ -4,11 +4,40 @@
 // display, width, paddings, margins...
 
 
-.header-container {
-    display: flex;
-    padding: 0 2.78vw;
-    
+.page {
+    overflow: visible;
 }
 
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2.292vw 2.78vw; 
+    justify-content: space-between;
+    background-color: v.$nav-and-cards-bg-color;
+}
+
+.navbar-container {
+    margin-right: 2.865vw;
+}
+
+.hero-text-container__h1 {
+    padding-top: 10.056vw;
+    margin-top: -10.056vw;
+}
+
+// .logo-container {
+//     display: flex;
+// }
+
+
+
+// .contacts-button-container {
+//     justify-content: flex-end;
+// }
 
 // main container > *: padding: 4.03vw 0;
