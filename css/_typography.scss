@@ -44,6 +44,11 @@
   }
 }
 
+.hero-text-container__h1 {
+  padding-top: 10.056vw;
+  margin-top: -10.056vw;
+}
+
 .about-text-container .p1 {
   margin: 0;
 }
@@ -56,6 +61,10 @@
 
 .feedback-container .p1, .p1-contacts {
   margin-top: 2.01vw;
+}
+
+.p1-contacts {
+  font-size: v.$p1-font-size;
 }
 
 .p1 {
@@ -192,6 +201,9 @@ strong {
   background-color: v.$text-and-deco-color;
   padding: 0.986vw 1.701vw;
 }
+
+// Change .hero-text-container__h1 +- paddings to make anchor links scroll to the right place
+  
 
 
 // Add different formats to font to ensure crossbrowser, format('ttf') - is not working in chrome
