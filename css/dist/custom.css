@@ -358,7 +358,14 @@ template {
   font-size: 1.25vw;
   text-decoration: none;
   color: #2B1600;
+  display: block;
   margin: 0 1.042vw;
+}
+.header-navbar-link:nth-child(1) {
+  margin-left: 0;
+}
+.header-navbar-link:nth-child(5) {
+  margin-right: 0;
 }
 
 .hero-text-container__h1 {
@@ -366,6 +373,11 @@ template {
 }
 .hero-text-container .p1 {
   margin-top: 2.08vw;
+}
+
+.hero-text-container__h1 {
+  padding-top: 10.056vw;
+  margin-top: -10.056vw;
 }
 
 .about-text-container .p1 {
@@ -380,6 +392,10 @@ template {
 
 .feedback-container .p1, .p1-contacts {
   margin-top: 2.01vw;
+}
+
+.p1-contacts {
+  font-size: 1.46vw;
 }
 
 .p1 {
@@ -515,6 +531,10 @@ strong {
   padding: 0;
 }
 
+html {
+  font-size: 0.0694vw;
+}
+
 body {
   font-family: "Raleway";
   font-weight: 400;
@@ -543,12 +563,17 @@ img {
 }
 
 .navbar-container {
-  margin-right: 2.865vw;
+  margin-right: 1.85vw;
+  display: flex;
 }
 
-.hero-text-container__h1 {
-  padding-top: 10.056vw;
-  margin-top: -10.056vw;
+.hero-block-container {
+  display: flex;
+}
+
+.hero-text-container {
+  padding: 200.5rem 116rem 200.5rem 136rem;
+  background-color: #EDEAE6;
 }
 
 .logo, .footer-logo {
