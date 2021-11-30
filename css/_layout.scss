@@ -26,19 +26,19 @@
     display: flex;
 }
 
-.hero-text-container__h1 {
-    padding-top: 10.056vw;
-    margin-top: -10.056vw;
+.hero-block-container {
+    display: flex;
 }
 
-// .logo-container {
-//     display: flex;
-// }
+.hero-text-container {
+    padding: 200.5rem 116rem 200.5rem 136rem;
+    background-color: v.$primary-bg-color;
+    
+}
 
 
 
-// .contacts-button-container {
-//     justify-content: flex-end;
-// }
+
+
 
 // main container > *: padding: 4.03vw 0;
