@@ -25,7 +25,14 @@
   font-size: v.$header-navbar-link;
   text-decoration: none;
   color: v.$text-and-deco-color;
+  display: block;
   margin: 0 1.042vw;
+  &:nth-child(1) {
+    margin-left: 0;
+  }
+  &:nth-child(5) {
+    margin-right: 0;
+  }
 }
 
 .hero-text-container {

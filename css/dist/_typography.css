@@ -20,7 +20,14 @@
   font-size: 1.25vw;
   text-decoration: none;
   color: #2B1600;
+  display: block;
   margin: 0 1.042vw;
+}
+.header-navbar-link:nth-child(1) {
+  margin-left: 0;
+}
+.header-navbar-link:nth-child(5) {
+  margin-right: 0;
 }
 
 .hero-text-container__h1 {
