@@ -8,6 +8,8 @@
 
 .point-container__image {
   width: 18.75vw;
+  margin-bottom: 29rem;
+  border-radius: 135px;
 }
 
 .feedbacks-container__image {
