@@ -37,13 +37,9 @@
   margin-top: 2.08vw;
 }
 
-.hero-text-container__h1 {
-  padding-top: 10.056vw;
-  margin-top: -10.056vw;
-}
-
 .about-text-container .p1 {
   margin: 0;
+  text-align: justify;
 }
 
 .point-container .p1 {
