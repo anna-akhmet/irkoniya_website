@@ -89,7 +89,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 58rem 135rem;
+    padding: 58rem 135rem 0;
 }
 
 .horse-riding-cards-container {
@@ -100,6 +100,7 @@
 
 .horse-riding-service-card {
     width: 370rem;
+    padding-bottom: 58rem;
 }
 
 .horse-riding-service-card__text-container {
