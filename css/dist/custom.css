@@ -403,8 +403,8 @@ template {
 .h2 {
   font-size: 2.22vw;
   font-weight: 400;
-  margin-bottom: 4.03vw;
 }
+
 .h2-with-subtitle {
   margin-bottom: 0;
   font-size: 2.22vw;
@@ -589,6 +589,7 @@ img {
 .usp-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 58rem 135rem;
 }
 
@@ -596,6 +597,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 770rem;
+  padding-bottom: 58rem;
 }
 
 .points-container {
@@ -625,7 +628,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 58rem 135rem;
+  padding: 58rem 135rem 0;
 }
 
 .horse-riding-cards-container {
@@ -636,6 +639,7 @@ img {
 
 .horse-riding-service-card {
   width: 370rem;
+  padding-bottom: 58rem;
 }
 
 .horse-riding-service-card__text-container {
@@ -651,6 +655,23 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.beginners-school-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 135rem;
+}
+
+.beginners-school-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.beginners-school-service-card {
+  width: 570rem;
+  padding-bottom: 58rem;
 }
 
 .logo, .footer-logo {
