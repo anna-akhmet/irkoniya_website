@@ -45,6 +45,7 @@
 .usp-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 58rem 135rem;
 }
 
@@ -52,6 +53,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 770rem;
+  padding-bottom: 58rem;
 }
 
 .points-container {
@@ -108,4 +111,21 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.beginners-school-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 135rem;
+}
+
+.beginners-school-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.beginners-school-service-card {
+  width: 570rem;
+  padding-bottom: 58rem;
 }
