@@ -72,12 +72,12 @@
 .h2 {
   font-size: v.$h2-font-size;
   font-weight: 400;
-  margin-bottom: 4.03vw;
-  &-with-subtitle {
-    margin-bottom: 0;
-    font-size: v.$h2-font-size;
-    font-weight: 400;
-  }
+}
+
+.h2-with-subtitle {
+  margin-bottom: 0;
+  font-size: v.$h2-font-size;
+  font-weight: 400;
 }
 
 p a {
