@@ -33,7 +33,7 @@
 .hero-text-container {
     padding: 200.5rem 116rem 200.5rem 136rem;
     background-color: v.$primary-bg-color;
-    
+    width: 50vw;
 }
 
 .about-container {
@@ -43,16 +43,17 @@
 .about-text-container {
     padding: 167rem 135rem 167rem 116rem;
     background-color: v.$primary-bg-color;
+    width: 50vw;
 }
 
-.about-image-container {
+
+.about-image-container, .hero-image-container {
     display: flex;
 }
 
 .usp-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 58rem 135rem;
 }
 
@@ -60,7 +61,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 770rem;
     padding-bottom: 58rem;
 }
 
@@ -124,7 +124,6 @@
 .beginners-school-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 0 135rem;
 }
 
@@ -137,6 +136,20 @@
 .beginners-school-service-card {
     width: 570rem;
     padding-bottom: 58rem;
+    &__text-container {
+        padding: 30rem 33rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 283rem;
+        background-color: v.$nav-and-cards-bg-color;
+    }
+    &__button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 }
 
 // find out proportions for imgs border radius
+// fix the width of images in about and hero sections
