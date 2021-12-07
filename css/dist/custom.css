@@ -390,6 +390,10 @@ template {
   margin-top: 2.01vw;
 }
 
+.heading-container .p1 {
+  width: 770rem;
+}
+
 .p1-contacts {
   font-size: 1.46vw;
 }
@@ -571,6 +575,7 @@ img {
 .hero-text-container {
   padding: 200.5rem 116rem 200.5rem 136rem;
   background-color: #EDEAE6;
+  width: 50vw;
 }
 
 .about-container {
@@ -580,16 +585,16 @@ img {
 .about-text-container {
   padding: 167rem 135rem 167rem 116rem;
   background-color: #EDEAE6;
+  width: 50vw;
 }
 
-.about-image-container {
+.about-image-container, .hero-image-container {
   display: flex;
 }
 
 .usp-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 58rem 135rem;
 }
 
@@ -597,7 +602,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 770rem;
   padding-bottom: 58rem;
 }
 
@@ -660,7 +664,6 @@ img {
 .beginners-school-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0 135rem;
 }
 
@@ -672,6 +675,19 @@ img {
 .beginners-school-service-card {
   width: 570rem;
   padding-bottom: 58rem;
+}
+.beginners-school-service-card__text-container {
+  padding: 30rem 33rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 283rem;
+  background-color: #FAFAFA;
+}
+.beginners-school-service-card__button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .logo, .footer-logo {
