@@ -661,33 +661,47 @@ img {
   align-items: flex-end;
 }
 
-.beginners-school-container {
+.beginners-school-container, .sport-school-container {
   display: flex;
   flex-direction: column;
+}
+
+.beginners-school-container {
   padding: 0 135rem;
 }
 
-.beginners-school-cards-container {
+.sport-school-container {
+  padding: 0 135rem 58rem;
+}
+
+.beginners-school-cards-container, .sport-school-cards-container {
   display: flex;
   justify-content: space-between;
 }
 
-.beginners-school-service-card {
+.beginners-school-service-card, .sport-school-service-card {
   width: 570rem;
   padding-bottom: 58rem;
 }
-.beginners-school-service-card__text-container {
+.beginners-school-service-card__text-container, .sport-school-service-card__text-container {
   padding: 30rem 33rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 283rem;
   background-color: #FAFAFA;
 }
-.beginners-school-service-card__button-container {
+.beginners-school-service-card__button-container, .sport-school-service-card__button-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.beginners-school-service-card__text-container {
+  height: 283rem;
+}
+
+.sport-school-service-card__text-container {
+  height: 224rem;
 }
 
 .logo, .footer-logo {
