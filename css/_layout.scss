@@ -121,19 +121,25 @@
     align-items: flex-end;
 }
 
-.beginners-school-container {
+.beginners-school-container, .sport-school-container {
     display: flex;
     flex-direction: column;
+}
+
+.beginners-school-container {
     padding: 0 135rem;
 }
 
-.beginners-school-cards-container {
+.sport-school-container {
+    padding: 0 135rem 58rem ;
+}
+
+.beginners-school-cards-container, .sport-school-cards-container {
     display: flex;
-    // flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.beginners-school-service-card {
+.beginners-school-service-card, .sport-school-service-card {
     width: 570rem;
     padding-bottom: 58rem;
     &__text-container {
@@ -141,7 +147,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 283rem;
         background-color: v.$nav-and-cards-bg-color;
     }
     &__button-container {
@@ -150,6 +155,15 @@
     align-items: flex-end;
 }
 }
+
+.beginners-school-service-card__text-container {
+    height: 283rem;
+}
+
+.sport-school-service-card__text-container {
+    height: 224rem;
+}
+
 
 // find out proportions for imgs border radius
 // fix the width of images in about and hero sections
