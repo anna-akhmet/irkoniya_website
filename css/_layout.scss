@@ -47,14 +47,17 @@
 }
 
 
-.about-image-container, .hero-image-container {
+.about-image-container, .hero-image-container, .team-container {
     display: flex;
+}
+
+.usp-container, .feedback-container, .faq-container, .cta-container, .location-container, .contacts-container, .instagram-posts-container{
+    padding: v.$basic-container-padding;
 }
 
 .usp-container {
     display: flex;
     flex-direction: column;
-    padding: 58rem 135rem;
 }
 
 .heading-container {
@@ -67,7 +70,6 @@
 .points-container {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .point-container {
@@ -78,7 +80,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 58rem 135rem;
     background-color: v.$primary-bg-color;
 }
 
@@ -88,30 +89,36 @@
     padding: 8rem 30rem;
 }
 
-.horse-riding-container {
+.horse-riding-container, .horses-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.horse-riding-container, .horses-container {
     padding: 58rem 135rem 0;
 }
 
-.horse-riding-cards-container {
+.horse-riding-cards-container, .horses-cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.horse-riding-service-card {
+.horse-riding-service-card, .horse-card {
     width: 370rem;
-    padding-bottom: 58rem;
+    margin-bottom: 58rem;
+}
+
+.horse-riding-service-card__text-container, .horse-card__text-container {
+    padding: 30rem 33rem;
 }
 
 .horse-riding-service-card__text-container {
-    padding: 30rem 33rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     height: 327.02rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: v.$nav-and-cards-bg-color;
 }
 
@@ -131,7 +138,7 @@
 }
 
 .sport-school-container {
-    padding: 0 135rem 58rem ;
+    padding: 0 135rem;
 }
 
 .beginners-school-cards-container, .sport-school-cards-container {
@@ -163,6 +170,21 @@
 .sport-school-service-card__text-container {
     height: 224rem;
 }
+
+.horses-container {
+    background-color: v.$primary-bg-color;
+}
+
+.horse-card__text-container {
+    background-color: v.$secondary-bg-color;
+    height: 346rem;
+}
+
+.seventh-horse-card-container {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 // find out proportions for imgs border radius
