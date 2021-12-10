@@ -47,7 +47,7 @@
 }
 
 
-.about-image-container, .hero-image-container, .team-container {
+.about-image-container, .hero-image-container  {
     display: flex;
 }
 
@@ -55,7 +55,7 @@
     padding: v.$basic-container-padding;
 }
 
-.usp-container {
+.usp-container, .team-container {
     display: flex;
     flex-direction: column;
 }
@@ -76,7 +76,7 @@
     width: 270rem;
 }
 
-.feedback-container {
+.feedback-container, .faq-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +110,7 @@
     margin-bottom: 58rem;
 }
 
-.horse-riding-service-card__text-container, .horse-card__text-container {
+.horse-riding-service-card__text-container, .horse-card__text-container, .team-card__text-container {
     padding: 30rem 33rem;
 }
 
@@ -141,7 +141,7 @@
     padding: 0 135rem;
 }
 
-.beginners-school-cards-container, .sport-school-cards-container {
+.beginners-school-cards-container, .sport-school-cards-container, .team-cards-container {
     display: flex;
     justify-content: space-between;
 }
@@ -185,7 +185,40 @@
     justify-content: center;
 }
 
+.team-container {
+    padding: 58rem 235rem;
+}
 
+.team-card {
+    width: 370rem;
+}
+
+.team-card__text-container {
+    height: 350rem;
+}
+
+.team-card__image {
+    border-radius: 450px;
+}
+
+.faq-card {
+    width: 570rem;
+    background-color: #fff;
+    margin-bottom: 15rem;
+    &:nth-child(8) {
+        margin-bottom: 0;
+    }
+}
+
+.faq-card__preview-container {
+    padding: 30rem 33rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-card__pop-up-text-container {
+    padding: 0 33rem 33rem
+}
 
 // find out proportions for imgs border radius
 // fix the width of images in about and hero sections
