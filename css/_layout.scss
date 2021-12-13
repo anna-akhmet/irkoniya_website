@@ -211,14 +211,31 @@
 }
 
 .faq-card__preview-container {
+    background-color: v.$nav-and-cards-bg-color;
     padding: 30rem 33rem;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.faq-card__preview-container:hover{
+    background-color: v.$secondary-bg-color;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+
+.active {
+    background-color: v.$secondary-bg-color;
 }
 
 .faq-card__pop-up-text-container {
-    padding: 0 33rem 33rem
+    padding: 0 33rem 33rem;
+    display: none;
+    overflow: hidden;
+
 }
+
+
 
 // find out proportions for imgs border radius
 // fix the width of images in about and hero sections
