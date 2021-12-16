@@ -232,10 +232,12 @@
     padding: 0 33rem 33rem;
     display: none;
     overflow: hidden;
-
+    background-color: v.$secondary-bg-color;;
 }
 
 
 
 // find out proportions for imgs border radius
 // fix the width of images in about and hero sections
+// make icons rotate while opening faq
+// make size of icons in faq responsive
