@@ -761,15 +761,20 @@ img {
   transition: 0.4s;
 }
 
-.faq-card__preview-container:hover, .active {
+.faq-card__preview-container:hover {
   background-color: #FFFFFF;
   filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+
+.active {
+  background-color: #FFFFFF;
 }
 
 .faq-card__pop-up-text-container {
   padding: 0 33rem 33rem;
   display: none;
   overflow: hidden;
+  background-color: #FFFFFF;
 }
 
 .logo, .footer-logo {
