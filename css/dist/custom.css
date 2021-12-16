@@ -777,6 +777,15 @@ img {
   background-color: #FFFFFF;
 }
 
+.cta-container {
+  background-color: #07941E;
+  padding: 79rem 335rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+
 .logo, .footer-logo {
   width: 11.82vw;
 }

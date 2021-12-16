@@ -235,6 +235,15 @@
     background-color: v.$secondary-bg-color;;
 }
 
+.cta-container {
+    background-color: v.$accent-color;
+    padding: 79rem 335rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: v.$secondary-bg-color;
+}
+
 
 
 // find out proportions for imgs border radius
