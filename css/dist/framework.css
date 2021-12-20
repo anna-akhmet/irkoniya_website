@@ -459,6 +459,7 @@ strong {
 .faq-card__question {
   font-size: 1.94vw;
   font-weight: 400;
+  width: 413rem;
 }
 
 .cta-container__h2 {
