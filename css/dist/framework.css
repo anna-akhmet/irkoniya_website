@@ -595,7 +595,7 @@ img {
   display: flex;
 }
 
-.usp-container, .feedback-container, .faq-container, .cta-container, .location-container, .contacts-container, .instagram-posts-container {
+.usp-container, .feedback-container, .faq-container, .cta-container, .contacts-container, .instagram-posts-container {
   padding: 58rem 135rem;
 }
 
@@ -786,6 +786,21 @@ img {
   justify-content: space-between;
   align-items: center;
   color: #FFFFFF;
+}
+
+.location-container__info-container {
+  display: flex;
+}
+
+.location-container__info-container {
+  padding: 0 135rem;
+}
+.location-container__info-container .p2 {
+  width: 569rem;
+}
+
+.location-container {
+  padding: 58rem 0;
 }
 
 .logo, .footer-logo {

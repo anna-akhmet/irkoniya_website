@@ -52,7 +52,7 @@
     display: flex;
 }
 
-.usp-container, .feedback-container, .faq-container, .cta-container, .location-container, .contacts-container, .instagram-posts-container{
+.usp-container, .feedback-container, .faq-container, .cta-container, .contacts-container, .instagram-posts-container{
     padding: v.$basic-container-padding;
 }
 
@@ -243,6 +243,21 @@
     justify-content: space-between;
     align-items: center;
     color: v.$secondary-bg-color;
+}
+
+.location-container__info-container {
+    display: flex;
+}
+
+.location-container__info-container {
+    padding: 0 135rem;
+    & .p2 {
+        width: 569rem;
+    }
+}
+
+.location-container {
+    padding: 58rem 0;
 }
 
 
