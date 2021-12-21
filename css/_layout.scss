@@ -274,8 +274,17 @@
     }
 }
  
-.contacts-container .heading-container {
-    margin-bottom: 29rem;
+.contacts-container {
+    & .heading-container {
+        margin-bottom: 29rem;
+    }
+    &__write-container{
+        margin-right: 30rem;
+    }
+    &__sub-container {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 

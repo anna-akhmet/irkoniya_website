@@ -386,7 +386,7 @@ template {
   margin-top: 0;
 }
 
-.feedback-container .p1, .p1-contacts {
+.feedback-container .p1 {
   margin-top: 2.01vw;
 }
 
@@ -819,6 +819,13 @@ img {
 
 .contacts-container .heading-container {
   margin-bottom: 29rem;
+}
+.contacts-container__write-container {
+  margin-right: 30rem;
+}
+.contacts-container__sub-container {
+  display: flex;
+  justify-content: center;
 }
 
 .logo, .footer-logo {
