@@ -798,6 +798,9 @@ img {
 .location-container__info-container .p2 {
   width: 570rem;
 }
+.location-container__info-container .p2:nth-child(1) {
+  margin-right: 30rem;
+}
 
 .location-container {
   padding: 58rem 0;
