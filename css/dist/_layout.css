@@ -70,7 +70,7 @@
   width: 270rem;
 }
 
-.feedback-container, .faq-container {
+.feedback-container, .faq-container, .contacts-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,4 +265,8 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.contacts-container .heading-container {
+  margin-bottom: 29rem;
 }
