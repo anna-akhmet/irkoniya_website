@@ -1,8 +1,17 @@
-@use "_variables" as v;
-
 // header, it’s navigation, content area and footer
 // display, width, paddings, margins etc
 
+@use "_variables" as v;
+
+
+@keyframes contacts-container {
+    from {
+        background-color: v.$accent-color;
+    }
+    to { 
+        background-color: v.$primary-bg-color;
+    }
+}
 
 .page {
     overflow: visible;
@@ -225,7 +234,7 @@
     filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 
-.active {
+.active-preview {
     background-color: v.$secondary-bg-color;
 }
 
@@ -299,11 +308,13 @@
     
 }
 
+.animated-contacts-container {
+   animation:  contacts-container 0.7s ease-in-out;
+}
+
 
 
 
 
 // find out proportions for imgs border radius
 // fix the width of images in about and hero sections
-// make icons rotate while opening faq
-// make size of icons in faq responsive

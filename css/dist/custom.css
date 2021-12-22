@@ -548,6 +548,14 @@ img {
   display: block;
 }
 
+@keyframes contacts-container {
+  from {
+    background-color: #07941E;
+  }
+  to {
+    background-color: #EDEAE6;
+  }
+}
 .page {
   overflow: visible;
 }
@@ -768,7 +776,7 @@ img {
   filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 
-.active {
+.active-preview {
   background-color: #FFFFFF;
 }
 
@@ -837,6 +845,10 @@ img {
 }
 .contacts-container__call-container {
   width: 570rem;
+}
+
+.animated-contacts-container {
+  animation: contacts-container 0.7s ease-in-out;
 }
 
 .logo, .footer-logo {
