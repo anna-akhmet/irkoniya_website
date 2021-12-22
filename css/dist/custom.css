@@ -851,6 +851,11 @@ img {
   animation: contacts-container 0.7s ease-in-out;
 }
 
+.instagram-posts-container__images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo, .footer-logo {
   width: 11.82vw;
 }

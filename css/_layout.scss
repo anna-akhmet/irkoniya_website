@@ -312,9 +312,14 @@
    animation:  contacts-container 0.7s ease-in-out;
 }
 
+.instagram-posts-container__images-container  {
+        display: flex;
+        justify-content: space-between;
+}
 
-
-
+// .instagram-post-container__img {
+//     display: inline-block;
+// }
 
 // find out proportions for imgs border radius
 // fix the width of images in about and hero sections

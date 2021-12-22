@@ -300,3 +300,8 @@
 .animated-contacts-container {
   animation: contacts-container 0.7s ease-in-out;
 }
+
+.instagram-posts-container__images-container {
+  display: flex;
+  justify-content: space-between;
+}
