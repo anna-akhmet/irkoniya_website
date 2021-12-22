@@ -3,7 +3,7 @@ const popupIcon = document.getElementsByClassName("faq-card__pop-up-icon");
 
 for (let i = 0; i < preview.length; i++) {
     preview[i].addEventListener("click", function() {
-        this.classList.toggle("active");
+        this.classList.toggle("active-preview");
         
         const popup = this.nextElementSibling;
         if (popup.style.display === "block") {
@@ -16,3 +16,14 @@ for (let i = 0; i < preview.length; i++) {
         }
     });
 }
+
+const contactButtons = document.querySelectorAll('[href="#contacts"]');
+const contactsContainer = document.querySelector(".contacts-container");
+
+contactButtons.forEach(button => button.addEventListener("click",function() {
+    contactsContainer.classList.add("animated-contacts-container");
+    contactsContainer.addEventListener('animationend', () =>{
+        contactsContainer.classList.remove("animated-contacts-container");
+    });
+}));
+
