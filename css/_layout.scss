@@ -317,9 +317,40 @@
         justify-content: space-between;
 }
 
-// .instagram-post-container__img {
-//     display: inline-block;
-// }
+.footer-container {
+    background-color: v.$nav-and-cards-bg-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container__navbar {
+    display: flex;
+}
+
+.footer-nav-link {
+    margin: 71rem 15rem 34rem;
+}
+
+.img-link-footer-logo {
+    margin: 46rem 15rem 29rem;
+}
+
+.footer-container__sm-links-container {
+    display: flex;
+    justify-content: center;
+    border-top: solid v.$text-and-deco-color 1px;
+    width: 1170rem;
+    padding: 29rem 0;
+    & .img-link {
+        margin: 0 15rem;
+    }
+}
+
+.footer-container__copyright-container {
+    margin-bottom: 58rem;
+}
 
 // find out proportions for imgs border radius
 // fix the width of images in about and hero sections
+// fix the gap between images of beginners section
