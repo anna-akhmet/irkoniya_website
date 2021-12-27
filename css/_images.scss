@@ -16,7 +16,7 @@
 .point-container__image {
     width: v.$little-square-image-width;
     margin-bottom: 29rem;
-    border-radius: 135px;
+    border-radius: 50%;
 }
 
 .feedbacks-container__image {
@@ -29,6 +29,10 @@
 
 .beginners-school-service-card__image, .sport-school-service-card__image {
     width: v.$rect-image-width;
+}
+
+.team-card__image {
+    border-radius: 50%;
 }
 
 .faq-card__pop-up-icon {

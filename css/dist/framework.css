@@ -749,10 +749,6 @@ img {
   height: 350rem;
 }
 
-.team-card__image {
-  border-radius: 450px;
-}
-
 .faq-card {
   width: 570rem;
   background-color: #fff;
@@ -904,7 +900,7 @@ img {
 .point-container__image {
   width: 18.75vw;
   margin-bottom: 29rem;
-  border-radius: 135px;
+  border-radius: 50%;
 }
 
 .feedbacks-container__image {
@@ -917,6 +913,10 @@ img {
 
 .beginners-school-service-card__image, .sport-school-service-card__image {
   width: 39.58vw;
+}
+
+.team-card__image {
+  border-radius: 50%;
 }
 
 .faq-card__pop-up-icon {
