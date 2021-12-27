@@ -36,7 +36,7 @@
 .hero-text-container {
   padding: 200.5rem 116rem 200.5rem 136rem;
   background-color: #EDEAE6;
-  width: 50vw;
+  width: 50%;
 }
 
 .about-container {
@@ -46,11 +46,11 @@
 .about-text-container {
   padding: 167rem 135rem 167rem 116rem;
   background-color: #EDEAE6;
-  width: 50vw;
+  width: 50%;
 }
 
 .about-image-container, .hero-image-container {
-  display: flex;
+  width: 50%;
 }
 
 .usp-container, .feedback-container, .faq-container, .cta-container, .contacts-container, .instagram-posts-container {
