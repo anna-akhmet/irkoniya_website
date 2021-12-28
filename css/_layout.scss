@@ -138,27 +138,23 @@
     align-items: flex-end;
 }
 
-// .beginners-school-container, .sport-school-container {
-//     display: flex;
-//     flex-direction: column;
-// }
 
-.beginners-school-container {
-    padding: 0 135rem;
+.beginners-school-container, .sport-school-container {
+    padding: 0 120rem;
 }
 
-.sport-school-container {
-    padding: 0 135rem;
-}
-
-.beginners-school-cards-container, .sport-school-cards-container, .team-cards-container {
+.team-cards-container {
     display: flex;
     justify-content: space-between;
 }
 
+.beginners-school-cards-container, .sport-school-cards-container {
+    display: flex;
+}
+
 .beginners-school-service-card, .sport-school-service-card {
     width: 570rem;
-    margin-bottom: 58rem;
+    margin: 0 15rem 58rem;
     
     &__text-container {
         padding: 30rem 33rem;
@@ -348,6 +344,5 @@
     margin-bottom: 58rem;
 }
 
-// find out proportions for imgs border radius
-// fix the width of images in about and hero sections
-// fix the gap between images of beginners section
+
+// fix the gap between all articles in section, make it 30rem in any case
