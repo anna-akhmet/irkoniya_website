@@ -61,8 +61,12 @@
     width: 50%;
 }
 
-.usp-container, .feedback-container, .faq-container, .cta-container, .contacts-container, .instagram-posts-container{
+ .feedback-container, .faq-container, .cta-container, .contacts-container, .instagram-posts-container{
     padding: v.$basic-container-padding;
+}
+
+.usp-container {
+    padding: 58rem 120rem;
 }
 
 .usp-container, .team-container {
@@ -79,11 +83,12 @@
 
 .points-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .point-container {
     width: 270rem;
+    margin: 0 15rem;
 }
 
 .feedback-container, .faq-container {
@@ -150,6 +155,7 @@
 
 .beginners-school-cards-container, .sport-school-cards-container {
     display: flex;
+    justify-content: center;
 }
 
 .beginners-school-service-card, .sport-school-service-card {
