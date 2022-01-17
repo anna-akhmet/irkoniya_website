@@ -603,7 +603,7 @@ img {
   width: 50%;
 }
 
-.feedback-container, .faq-container, .cta-container, .contacts-container, .instagram-posts-container {
+.feedback-container, .faq-container, .cta-container, .contacts-container {
   padding: 58rem 135rem;
 }
 
@@ -653,18 +653,18 @@ img {
 }
 
 .horse-riding-container, .horses-container {
-  padding: 58rem 135rem 0;
+  padding: 58rem 111.5rem 0;
 }
 
 .horse-riding-cards-container, .horses-cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .horse-riding-service-card, .horse-card {
   width: 370rem;
-  margin-bottom: 58rem;
+  margin: 0 15rem 58rem;
 }
 
 .horse-riding-service-card__text-container, .horse-card__text-container, .team-card__text-container {
@@ -691,7 +691,7 @@ img {
 
 .team-cards-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .beginners-school-cards-container, .sport-school-cards-container {
@@ -739,11 +739,12 @@ img {
 }
 
 .team-container {
-  padding: 58rem 235rem;
+  padding: 58rem 111.5rem;
 }
 
 .team-card {
   width: 370rem;
+  margin: 0 115rem;
 }
 
 .team-card__text-container {
@@ -848,9 +849,13 @@ img {
   animation: contacts-container 0.7s ease-in-out;
 }
 
+.instagram-posts-container {
+  padding: 58rem 111.5rem;
+}
+
 .instagram-posts-container__images-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer-container {
@@ -908,7 +913,7 @@ img {
   width: 39.58vw;
 }
 
-.horse-riding-service-card__image, .horse-card__image, .team-card__image, .instagram-post-container__img {
+.horse-riding-service-card__image, .horse-card__image, .team-card__image {
   width: 25.69vw;
 }
 
@@ -922,6 +927,11 @@ img {
 
 .faq-card__pop-up-icon {
   width: 2.22vw;
+}
+
+.instagram-post-container__img {
+  margin: 0 15rem;
+  width: 25.69vw;
 }
 
 .sm-logo {

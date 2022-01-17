@@ -23,7 +23,7 @@
     width: 39.58vw;
 }
 
-.horse-riding-service-card__image, .horse-card__image, .team-card__image, .instagram-post-container__img {
+.horse-riding-service-card__image, .horse-card__image, .team-card__image {
     width: v.$medium-square-image-width;
 }
 
@@ -37,6 +37,11 @@
 
 .faq-card__pop-up-icon {
     width: 2.22vw;
+}
+
+.instagram-post-container__img {
+    margin: 0 15rem;
+    width: v.$medium-square-image-width;
 }
 
 .sm-logo {
