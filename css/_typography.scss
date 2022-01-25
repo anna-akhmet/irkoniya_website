@@ -215,15 +215,5 @@ strong {
 // url('DejaWeb-Bol.svg#Dejaweb') format('svg'); /* Legacy iOS; correction on this line */
 
 
-// @use "sass:list";
-// @use "sass:map";
-
 // https://www.internetingishard.com/html-and-css/web-typography/
 
-//  for $i from 1 through 6 {
-//  h#{$i}  {
-//  font-family: v.$font-family-headings;
-//  font-size: map.get(list.nth(v.$heading-styles, $i), "size");
-//  line-height: map.get(list.nth(v.$heading-styles, $i), "height")
-//  }
-// }

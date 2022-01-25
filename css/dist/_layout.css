@@ -103,7 +103,7 @@
 }
 
 .horse-riding-container, .horses-container {
-  padding: 58rem 111.5rem 0;
+  padding: 58rem calc(120rem - var(--scrollbar-width)/2) 0;
 }
 
 .horse-riding-cards-container, .horses-cards-container {

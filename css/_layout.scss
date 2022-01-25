@@ -111,7 +111,7 @@
 }
 
 .horse-riding-container, .horses-container {
-    padding: 58rem 111.5rem 0;
+    padding: 58rem calc(120rem - var(--scrollbar-width)/2) 0; // calc gor calculation the side paddings considering the scrollbar width
 }
 
 .horse-riding-cards-container, .horses-cards-container {
@@ -355,5 +355,3 @@
     margin-bottom: 58rem;
 }
 
-
-// fix the gap between all articles in section, make it 30rem in any case
