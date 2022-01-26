@@ -9,14 +9,14 @@
 
 @font-face {
   font-family: v.$font-family;
-  src: url('/fonts/Raleway-Medium.ttf') format('truetype');
+  src: url('../fonts/Raleway-Medium.ttf') format('truetype');
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
     font-family: v.$font-family;
-    src: url('/fonts/Raleway-SemiBold.ttf') format('truetype');
+    src: url('../fonts/Raleway-SemiBold.ttf') format('truetype');
     font-style: normal;
     font-weight: 600; 
 }
@@ -206,7 +206,7 @@ strong {
 }
 
 
-
+//Find out where are the fonts while hosted
 
 // Add different formats to font to ensure crossbrowser, format('ttf') - is not working in chrome
 // src: url("DejaWeb-Bol.eot") format('embedded-opentype'), /* EDIT correction on this line */
