@@ -130,9 +130,7 @@ strong {
 .cta-container__h2 {
   font-size: 2.22vw;
   line-height: 140.6%;
-}
-.cta-container__h2:nth-child(1) {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .footer-nav-link {
