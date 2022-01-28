@@ -134,9 +134,6 @@ strong {
 .cta-container__h2:nth-child(1) {
   font-weight: 500;
 }
-.cta-container__h2:nth-child(2) {
-  font-weight: 400;
-}
 
 .footer-nav-link {
   font-size: 0.97vw;
