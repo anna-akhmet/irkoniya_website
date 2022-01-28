@@ -159,6 +159,9 @@ strong {
   font-size: v.$h2-font-size;
   line-height: 140.6%;
   font-weight: 400;
+  & .first {
+    font-weight: 500;
+  }
 }
 
 .footer-nav-link {
