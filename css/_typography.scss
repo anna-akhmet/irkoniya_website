@@ -222,14 +222,4 @@ strong {
   padding: 0.986vw 1.701vw;
 }
 
-
-// Add different formats to font to ensure crossbrowser:
-// src: url("DejaWeb-Bol.eot") format('embedded-opentype'), /* EDIT correction on this line */
-// url('DejaWeb-Bol.woff') format('woff'), /* Modern Browsers */
-// url('DejaWeb-Bol.ttf') format('truetype'), /* Safari, Android, iOS */
-// url('DejaWeb-Bol.svg#Dejaweb') format('svg'); /* Legacy iOS; correction on this line */
-
-
-// https://www.internetingishard.com/html-and-css/web-typography/
-
-// Остались вопросы font is missing
+// The buttons are more rounded on mobiles
