@@ -1,6 +1,12 @@
 @use "_variables" as v;
 
-
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
 
 .logo, .footer-logo {
     width: 11.82vw;
