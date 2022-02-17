@@ -1,9 +1,5 @@
 img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
 }
 
 .logo, .footer-logo {
@@ -28,7 +24,7 @@ img {
 }
 
 .horse-riding-service-card__image, .horse-card__image, .team-card__image {
-  width: 25.69vw;
+  width: 100%;
 }
 
 .beginners-school-service-card__image, .sport-school-service-card__image {
