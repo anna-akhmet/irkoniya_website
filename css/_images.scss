@@ -32,7 +32,8 @@ img {
 }
 
 .beginners-school-service-card__image, .sport-school-service-card__image {
-    width: v.$rect-image-width;
+    // width: v.$rect-image-width;
+    width: 100%;
 }
 
 .team-card__image {
