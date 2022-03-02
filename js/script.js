@@ -36,3 +36,6 @@ function _calculateScrollbarWidth() {
   document.addEventListener('DOMContentLoaded', _calculateScrollbarWidth, false); 
   // recalculate on load (assets loaded as well)
   window.addEventListener('load', _calculateScrollbarWidth);
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+// https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link
