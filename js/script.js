@@ -17,6 +17,7 @@ for (let i = 0; i < preview.length; i++) {
     });
 }
 
+
 const contactButtons = document.querySelectorAll('[href="#contacts"]');
 const contactsContainer = document.querySelector(".contacts-container");
 
@@ -27,19 +28,21 @@ contactButtons.forEach(button => button.addEventListener("click",function() {
     });
 }));
 
+
 function _calculateScrollbarWidth() {
     document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + "px");
-  }
-  // recalculate on resize
-  window.addEventListener('resize', _calculateScrollbarWidth, false);
-  // recalculate on dom load
-  document.addEventListener('DOMContentLoaded', _calculateScrollbarWidth, false); 
-  // recalculate on load (assets loaded as well)
-  window.addEventListener('load', _calculateScrollbarWidth);
+}
+// recalculate on resize
+window.addEventListener('resize', _calculateScrollbarWidth, false);
+// recalculate on dom load
+document.addEventListener('DOMContentLoaded', _calculateScrollbarWidth, false); 
+// recalculate on load (assets loaded as well)
+window.addEventListener('load', _calculateScrollbarWidth); 
 
-  let anchorlinks = document.querySelectorAll('a[href^="#"]')
+
+let anchorlinks = document.querySelectorAll('a[href^="#"]');
  
-for (let item of anchorlinks) { // relitere 
+for (let item of anchorlinks) { 
     item.addEventListener('click', (e)=> {
         let hashval = item.getAttribute('href')
         let target = document.querySelector(hashval)
