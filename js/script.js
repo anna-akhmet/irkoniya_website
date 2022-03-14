@@ -40,6 +40,8 @@ document.addEventListener('DOMContentLoaded', _calculateScrollbarWidth, false);
 window.addEventListener('load', _calculateScrollbarWidth); 
 
 
+// Adds smooth scrolling and enables user to navigate through URL adress
+
 let anchorlinks = document.querySelectorAll('a[href^="#"]');
  
 for (let item of anchorlinks) { 
