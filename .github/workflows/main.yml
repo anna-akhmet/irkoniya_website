@@ -11,8 +11,9 @@ jobs:
     name: Deploy to the production server
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Delete old project
-      - uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
