@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /docs/
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: YandexImages
+Disallow: /
+
+Sitemap: https://irkoniya.ru/sitemap.xml
