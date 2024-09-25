@@ -32,11 +32,14 @@ The landing page is hosted on https://irkoniya.ru/.
 - Nginx
 - GitHub Actions
 
-## Contributors
-
-[Anna Akhmetgaleeva](https://github.com/anna-akhmet) — HTML layouts, SCSS styling, JS scripts, SEO, domain name registration, UI design
-[Mikhail Gaponov](https://github.com/Contrigra) — setting of Nginx server, GitHub Actions, SSL certificate
-
 ## Start the website
 
 After cloning the repo, use Go Live server extension for VS Code to run the website on localhost.
+
+## Contributors
+
+[Anna Akhmetgaleeva](https://github.com/anna-akhmet) — HTML layouts, SCSS styling, JS scripts, SEO, domain name registration, UI design.
+
+[Mikhail Gaponov](https://github.com/Contrigra) — setting of Nginx server, GitHub Actions, SSL certificate.
+
+
