@@ -49,6 +49,12 @@
   width: 50%;
 }
 
+.about-text-container-coach {
+  padding: 167rem 135rem 167rem 116rem;
+  background-color: white;
+  width: 50%;
+}
+
 .about-image-container, .hero-image-container {
   width: 50%;
 }
@@ -137,11 +143,6 @@
 
 .beginners-school-container, .sport-school-container {
   padding: 0 120rem;
-}
-
-.team-cards-container {
-  display: flex;
-  justify-content: center;
 }
 
 .beginners-school-cards-container, .sport-school-cards-container {

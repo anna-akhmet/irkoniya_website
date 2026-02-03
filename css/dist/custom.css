@@ -383,6 +383,11 @@ template {
   text-align: justify;
 }
 
+.about-text-container-coach .p1 {
+  margin: 0;
+  text-align: justify;
+}
+
 .point-container .p1 {
   padding-top: 2.01vw;
   border-top: solid #2B1600 1px;
@@ -411,6 +416,12 @@ template {
 .h2 {
   font-size: 2.22vw;
   font-weight: 400;
+}
+
+.h2-couch {
+  font-size: 1.7vw;
+  font-weight: 400;
+  text-align: center;
 }
 
 .h2-with-subtitle {
@@ -597,6 +608,12 @@ body {
   width: 50%;
 }
 
+.about-text-container-coach {
+  padding: 167rem 135rem 167rem 116rem;
+  background-color: white;
+  width: 50%;
+}
+
 .about-image-container, .hero-image-container {
   width: 50%;
 }
@@ -685,11 +702,6 @@ body {
 
 .beginners-school-container, .sport-school-container {
   padding: 0 120rem;
-}
-
-.team-cards-container {
-  display: flex;
-  justify-content: center;
 }
 
 .beginners-school-cards-container, .sport-school-cards-container {
@@ -914,10 +926,6 @@ img {
 
 .feedbacks-container__image {
   width: 39.58vw;
-}
-
-.team-card__image {
-  border-radius: 50%;
 }
 
 .faq-card__pop-up-icon {

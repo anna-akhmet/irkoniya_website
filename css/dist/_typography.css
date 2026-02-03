@@ -45,6 +45,11 @@
   text-align: justify;
 }
 
+.about-text-container-coach .p1 {
+  margin: 0;
+  text-align: justify;
+}
+
 .point-container .p1 {
   padding-top: 2.01vw;
   border-top: solid #2B1600 1px;
@@ -73,6 +78,12 @@
 .h2 {
   font-size: 2.22vw;
   font-weight: 400;
+}
+
+.h2-couch {
+  font-size: 1.7vw;
+  font-weight: 400;
+  text-align: center;
 }
 
 .h2-with-subtitle {
